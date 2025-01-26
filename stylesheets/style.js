@@ -1,5 +1,5 @@
 // Initialize font properties
-const fontname = "Barlow";
+const fontname = "Inter";
 const fontweights = [300, 400]
 
 // Color properties
@@ -13,7 +13,7 @@ const highlightcolor = "#111";
 
 // Body properties
 const bodyfontweight = 300;
-const bodyfontsize = "12pt";
+const bodyfontsize = "11pt";
 const backgroundcolor = "#fff";
 
 // Link properties

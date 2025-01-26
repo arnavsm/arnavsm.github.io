@@ -1,11 +1,11 @@
 // Initialize font properties
-const fontname = "Barlow";
+const fontname = "Inter";
 const fontweights = [300, 400]
 
 // Color properties
-const basecolor = "#999";
-const accentcolor = "#ddd";
-const highlightcolor = "#eee";
+const basecolor = "#c8c8c8";
+const accentcolor = "#a8b4ff";
+const highlightcolor = "#d1d1d1";
 
 // const basecolor = "#888";
 // const accentcolor = "#222";
@@ -13,46 +13,46 @@ const highlightcolor = "#eee";
 
 // Body properties
 const bodyfontweight = 300;
-const bodyfontsize = "12pt";
-const backgroundcolor = "#383838";
+const bodyfontsize = "11pt";
+const backgroundcolor = "#2e2e2e";
 
 // Link properties
-const acolor = accentcolor;
+const acolor = "#9db0ff";
 const adecoration = "none";
 // const ahovercolor = accentcolor;
 // const ahoverduration = "0.3s";
 // const ahoverdecoration = "none"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
 // Menu properties
-const menucolor = accentcolor;
-const menufontsize = "15pt";
+const menucolor = basecolor;
+const menufontsize = "14pt";
 const menudecoration = "none";
 // const menuhover = accentcolor;
 // const menuhoverduration = "0.3s";
 // const menuhoverdecoration = "none"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
 // Header properties
-const headercolor = accentcolor;
+const headercolor = "#e0e0e0";
 const headerfontsize = "18pt";
 const headerdecoration = "none";
-const namecolor = accentcolor;
+const namecolor = highlightcolor;
 const namefontsize = "23pt";
 
 
 // Publication properties
-const ptitlecolor = accentcolor;
-const ptitlefontsize = bodyfontsize;
-const ptitleweight = bodyfontweight;
+const ptitlecolor = "#eeeeee";
+const ptitlefontsize = "13pt";
+const ptitleweight = 400;
 const ptitledecoration = "none";
 const ptitlestyle = "normal";
 
-const authorcolor = accentcolor;
+const authorcolor = basecolor;
 const authorweight = bodyfontweight;
 const authordecoration = "none";
-const authorstyle = "normal";
+const authorstyle = "italic";
 
 const selfcolor = highlightcolor;
-const selfweight = bodyfontweight;
+const selfweight = 400;
 const selfdecoration = "none";
 const selfstyle = "normal";
 
@@ -63,7 +63,7 @@ const tagstyle = "normal";
 
 const insttitlecolor = highlightcolor;
 const insttitlesize = "12px";
-const instyearcolor = accentcolor;
+const instyearcolor = highlightcolor;
 const instyearsize = "11px";
 
 //     .institution {
@@ -102,6 +102,11 @@ $(".papertitle").css("font-size", ptitlefontsize);
 $(".papertitle").css("font-weight", ptitleweight);
 $(".papertitle").css("text-decoration", ptitledecoration);
 $(".papertitle").css("font-style", ptitlestyle);
+
+$(".defaultauthor").css("color", authorcolor);
+$(".defaultauthor").css("font-weight", authorweight);
+$(".defaultauthor").css("text-decoration", authordecoration);
+$(".defaultauthor").css("font-style", authorstyle);
 
 $(".thisauthor").css("color", selfcolor);
 $(".thisauthor").css("font-weight", selfweight);
