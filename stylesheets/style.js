@@ -4,7 +4,7 @@ const fontweights = [300, 400]
 
 // Color properties
 const basecolor = "#222222";
-const accentcolor = "#4584ef";
+const accentcolor = "#3572db";
 const highlightcolor = "#111";
 
 // const basecolor = "#888";
@@ -40,7 +40,7 @@ const namefontsize = "23pt";
 
 
 // Publication properties
-const ptitlecolor = "accentcolor";
+const ptitlecolor = "#242424";
 const ptitlefontsize = bodyfontsize;
 const ptitleweight = 400;
 const ptitledecoration = "none";
